@@ -1,0 +1,11 @@
+<%=form_for @project do |f|%>
+	<%=f.label :code_name%>
+	<%=f.text_field :code_name%>
+	<%=f.label :due_date%>
+	<%=f.date :due_date%>
+	<%=f.label :budget%>
+	<%=f.integer :budget%>
+	<%=f.label :status%>
+	<%=f.text_field :status%>
+	<%=f.submit%>
+<%end%>

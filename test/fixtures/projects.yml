@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code_name: MyString
+  due_date: 2016-06-24
+  budget: 9.99
+  status: MyString
+
+two:
+  code_name: MyString
+  due_date: 2016-06-24
+  budget: 9.99
+  status: MyString
